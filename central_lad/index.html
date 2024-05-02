@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Central Plaza - Santa Anita</title>
+    <script
+      src="https://kit.fontawesome.com/961ace9b78.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="./img/cp_fav.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/estilos.css" />
+  </head>
+  <body>
+    <header class="hero" id="inicio">
+      <nav class="nav" id="nav">
+        <div class="nav_bar">
+          <div class="nav_logo">
+            <h2 class="nav_title">Central Plaza</h2>
+          </div>
+          <ul class="nav_link nav_link--menu" id="links">
+            <li class="nav_items">
+              <a
+                href="#inicio"
+                onclick="seleccionar(this)"
+                class="nav_links seleccionado"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav_items">
+              <a
+                href="#informacion"
+                onclick="seleccionar(this)"
+                class="nav_links"
+                >Información</a
+              >
+            </li>
+            <li class="nav_items">
+              <a href="#nosotros" onclick="seleccionar(this)" class="nav_links"
+                >Nosotros</a
+              >
+            </li>
+            <li class="nav_items">
+              <a href="#avance" onclick="seleccionar(this)" class="nav_links"
+                >Avance</a
+              >
+            </li>
+            <li class="nav_items">
+              <a href="#preguntas" onclick="seleccionar(this)" class="nav_links"
+                >FAQ</a
+              >
+            </li>
+            <li class="nav_items">
+              <a href="#giros" onclick="seleccionar(this)" class="nav_links"
+                >Giros</a
+              >
+            </li>
+
+            <i class="fa-solid fa-square-xmark nav_close"></i>
+          </ul>
+
+          <div class="nav_menu">
+            <i class="fa-solid fa-bars nav_img"></i>
+          </div>
+        </div>
+      </nav>
+      <section class="hero_container container">
+        <h1 class="hero_title">Tu negocio a la vista de todos</h1>
+        <p class="hero_paragraph">
+          Ahora podrás estar más cerca de tus clientes en el nuevo centro
+          comercial más grande de Santa Anita
+        </p>
+        <h5><a href="#" class="cta">Separa tu local</a></h5>
+      </section>
+    </header>
+
+    <main>
+      <section class="about" id="informacion">
+        <h2 class="subtitle">¿Todavía no estás seguro?</h2>
+        <p class="about_paragraph">
+          Déjanos contarte un poco sobre nuestras ofertas para ti querido
+          emprendedor
+        </p>
+
+        <div class="about_main">
+          <article class="about_icons">
+            <i
+              class="fa-solid fa-shop fa-2xl about_icon"
+              style="color: #37b957"
+            ></i>
+            <h3 class="about_title">Locales</h3>
+            <img src="img/locales.jpg" class="about_img" />
+            <p class="about_paragraph">
+              Descubre nuestros locales a los mejores precios
+            </p>
+          </article>
+
+          <article class="about_icons">
+            <i
+              class="fa-solid fa-list-ul fa-2xl about_icon"
+              style="color: #ffd43b"
+            ></i>
+            <h3 class="about_title">Rubros</h3>
+            <img src="img/rubros.jpg" class="about_img" />
+            <p class="about_paragraph">
+              Consulta sobre los diferentes rubros que tenemos para ti
+            </p>
+          </article>
+
+          <article class="about_icons">
+            <i
+              class="fa-solid fa-building-columns fa-2xl about_icon"
+              style="color: #3583a1"
+            ></i>
+            <h3 class="about_title">Financiamiento</h3>
+            <img src="img/finaciamiento.jpg" class="about_img" />
+            <p class="about_paragraph">
+              Te brindamos las mejores facilidades de pago
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="knowledge" id="nosotros">
+        <div class="knowledge_container container">
+          <div class="knowledge_texts">
+            <h2 class="subtitle">¡Central Plaza a un paso de ti!</h2>
+            <p class="knowledge_paragraph">
+              Bienvenido a Central Plaza, el centro comercial que se encuentra
+              en el corazón del distrito de Santa Anita. Aquí, la emoción y la
+              conveniencia se fusionan para crear una experiencia de compra
+              incomparable. Ofrecemos una amplia variedad de opciones para
+              satisfacer todos los gustos y necesidades con una arquitectura
+              moderna y espacios abiertos. ¡Ven y descubre todo lo que Central
+              Plaza tiene para ofrecer en el corazón de la acción comercial de
+              la ciudad!
+            </p>
+            <a
+              href="https://wa.me/51964493764?text=Hola%20estoy%20interesado%20en%20comprar%20en%20Central%20Plaza"
+              class="cta_contact"
+              ><i class="fa-brands fa-whatsapp fa-2xl"></i>Contáctanos</a
+            >
+          </div>
+          <figure class="knowledge_movie">
+            <video
+              controls
+              autoplay
+              loop
+              muted
+              poster="img/cp_logo.jpg"
+              class="knowledge_video"
+            >
+              <source
+                src="video/Plaza Central - Santa Anita.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </figure>
+        </div>
+      </section>
+
+      <section class="carousel" id="avance">
+        <h2 class="subtitle">Avance de Obra</h2>
+        <p class="carousel_paragraph">
+          Te mostramos algunas imágenes sobre el avance de obra del centro
+          comercial más increíble al día de hoy
+        </p>
+        <div class="slider">
+          <ul>
+            <li>
+              <img src="img/avance11.jpg" alt="" />
+            </li>
+            <li>
+              <img src="img/avance12.jpg" alt="" />
+            </li>
+            <li>
+              <img src="img/avance13.jpg" alt="" />
+            </li>
+            <li>
+              <img src="img/avance14.jpg" alt="" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="questions container" id="preguntas">
+        <h2 class="subtitle">Preguntas frecuentes</h2>
+        <p class="questions_paragraph">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam iure
+          corporis nesciunt pariatur dolorem earum voluptatum, facilis nulla sit
+          quos odio vero autem iusto praesentium dolore quo consectetur deleniti
+          ipsum.
+        </p>
+        <section class="questions_container">
+          <article class="questions_padding">
+            <div class="questions_answer">
+              <h3 class="questions_title">
+                ¿Por qué elegir Central Plaza?
+                <span class="questions_arrow">
+                  <i
+                    class="fa-solid fa-arrow-up-right-from-square questions_img"
+                  ></i>
+                </span>
+              </h3>
+              <p class="questions_show">
+                Somos el lugar donde las ideas se convierten en realidad y los
+                sueños empresariales se hacen tangibles. Nos caracterizamos por
+                ser un centro comercial inclusivo, donde la diversidad y la
+                innovación son celebradas. Aquí, cada empresario es bienvenido,
+                sin importar su trayectoria o tamaño de su negocio. Nuestro
+                objetivo es ofrecer un espacio donde todos puedan prosperar y
+                alcanzar sus metas comerciales.
+              </p>
+            </div>
+          </article>
+          <article class="questions_padding">
+            <div class="questions_answer">
+              <h3 class="questions_title">
+                ¿Cuál es nuestra Misión?
+                <span class="questions_arrow">
+                  <i
+                    class="fa-solid fa-arrow-up-right-from-square questions_img"
+                  ></i>
+                </span>
+              </h3>
+              <p class="questions_show">
+                Nuestra misión es proporcionar un ambiente dinámico y acogedor
+                que nutra el crecimiento de cada negocio, desde los
+                emprendimientos más incipientes hasta las marcas consolidadas.
+                Además, nos comprometemos a brindar un servicio excepcional y
+                personalizado a cada uno de nuestros clientes, asegurándonos de
+                satisfacer sus necesidades y superar sus expectativas en todo
+                momento. Creemos en construir relaciones sólidas y duraderas
+                basadas en la confianza mutua y el respeto.
+              </p>
+            </div>
+          </article>
+          <article class="questions_padding">
+            <div class="questions_answer">
+              <h3 class="questions_title">
+                ¿Cuál es nuestra Visión?
+                <span class="questions_arrow">
+                  <i
+                    class="fa-solid fa-arrow-up-right-from-square questions_img"
+                  ></i>
+                </span>
+              </h3>
+              <p class="questions_show">
+                Nuestra visión es ser reconocidos como el epicentro dinámico y
+                vanguardista donde convergen las mejores oportunidades
+                comerciales. Nos esforzamos por ser el destino preferido tanto
+                para empresarios emergentes como para marcas consolidadas que
+                buscan expandir su presencia y alcanzar nuevos horizontes.
+              </p>
+            </div>
+          </article>
+        </section>
+      </section>
+
+      <section class="formpage" id="giros">
+        <div class="formpage_container container">
+          <div class="formpage_texts">
+            <h2 class="subtitle">Giros Comerciales</h2>
+            <form>
+              <label for="pisos">Pisos:</label>
+              <select id="pisos">
+                <option value="piso">-Selecione-</option>
+                <option value="piso1">Piso 1</option>
+                <option value="piso2">Piso 2</option>
+                <option value="piso3">Piso 3</option>
+              </select>
+              <label for="categorias">Categorías:</label>
+              <select id="categorias"></select>
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required />
+
+              <label for="apellido">Apellido:</label>
+              <input type="text" id="apellido" name="apellido" required />
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="telefono">Teléfono:</label>
+              <input type="tel" id="telefono" name="telefono" required />
+
+              <label for="documento">Documento:</label>
+              <input type="text" id="documento" name="documento" required />
+
+              <button type="submit" class="btn_form">Enviar</button>
+            </form>
+          </div>
+          <div id="piso" class="floor-images">
+            <h2 class="subtitle">PLANO GENERAL</h2>
+            <div class="image-container" style="position: none">
+              <img
+                src="img/pisos/plano_general.jpg"
+                alt="Pisos"
+                class="floor-image"
+              />
+              <img
+                id="pisos"
+                src=""
+                alt=""
+                class="product-image"
+                style="position: absolute; top: 0; left: 0; display: none"
+              />
+            </div>
+          </div>
+
+          <div id="piso1" class="floor-images" style="display: none">
+            <h2 class="subtitle">Piso 1</h2>
+            <div class="image-container" style="position: relative">
+              <img src="img/pisos/1.jpg" alt="Piso 1" class="floor-image" />
+              <img
+                id="piso1-producto"
+                src=""
+                alt=""
+                class="product-image"
+                style="position: absolute; top: 0; left: 0; display: none"
+              />
+            </div>
+          </div>
+          <div id="piso2" class="floor-images" style="display: none">
+            <h2 class="subtitle">Piso 2</h2>
+            <div class="image-container" style="position: relative">
+              <img src="img/pisos/2.jpg" alt="Piso 2" class="floor-image" />
+              <img
+                id="piso2-producto"
+                src=""
+                alt=""
+                class="product-image"
+                style="position: absolute; top: 0; left: 0; display: none"
+              />
+            </div>
+          </div>
+          <div id="piso3" class="floor-images" style="display: none">
+            <h2 class="subtitle">Piso 3</h2>
+            <div class="image-container" style="position: relative">
+              <img src="img/pisos/3.jpg" alt="Piso 3" class="floor-image" />
+              <img
+                id="piso3-producto"
+                src=""
+                alt=""
+                class="product-image"
+                style="position: absolute; top: 0; left: 0; display: none"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <svg
+        class="footer-wave-svg"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1200 100"
+        preserveAspectRatio="none"
+      >
+        <path
+          class="footer-wave-path"
+          d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"
+        ></path>
+      </svg>
+      <div class="footer-content footer_contaniner">
+        <div class="footer-content-column">
+          <div class="footer-logo">
+            <a class="footer-logo-link" href="#">
+              <img src="img/cp_logo.jpg" alt="" class="footer_cp" />
+            </a>
+          </div>
+          <div class="footer-menu">
+            <h2 class="footer-menu-name">CENTRAL PLAZA</h2>
+            <ul id="menu-get-started" class="footer-menu-list">
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-product"
+              >
+                <p>
+                  <i class="fa-solid fa-route"></i>
+                  Ubicación: <br />
+                  Carretera Central N° 359 <br />
+                  Santa Anita, Lima, Peru
+                </p>
+              </li>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-product"
+              >
+                <p>
+                  <i class="fa-solid fa-address-book"></i>
+                  Contacto: <br />
+                  XXX-XXX-XXX
+                </p>
+              </li>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-product"
+              >
+                <p>
+                  <i class="fa-solid fa-envelope"></i>
+                  Email: <br />
+                  proyectos@centralplaza.com
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-content-column">
+          <div class="footer-menu">
+            <h2 class="footer-menu-name">UBICACIÓN:</h2>
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe
+                  width="320"
+                  height="360"
+                  id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=W2WM%2B2P+Santa+Anita&t=&z=18&ie=UTF8&iwloc=&output=embed"
+                ></iframe
+                ><style>
+                  .mapouter {
+                    max-width: 3000px;
+                  }
+                </style>
+                <style>
+                  .gmap_canvas {
+                    width: 100%;
+                    position: relative;
+                    display: block;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-content-column">
+          <div class="footer-call-to-action">
+            <h2 class="footer-call-to-action-title">REDES SOCIALES</h2>
+            <ul id="menu-quick-links" class="footer-menu-list">
+              <li
+                class="menu-item menu-item-type-custom menu-item-object-custom"
+              >
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.facebook.com/p/Central-Plaza-100083197217693/"
+                  ><i class="fa-brands fa-facebook"></i> Facebook</a
+                >
+              </li>
+              <li
+                class="menu-item menu-item-type-custom menu-item-object-custom"
+              >
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.instagram.com/centralplazasantaanita/"
+                  ><i class="fa-brands fa-instagram"></i> Instagram</a
+                >
+              </li>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page"
+              >
+                <a href="https://www.tiktok.com/@centralplazasantaanita"
+                  ><i class="fa-brands fa-tiktok"></i> TikTok</a
+                >
+              </li>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page"
+              >
+                <a
+                  href="https://www.youtube.com/channel/UCQcELou6vwMjDes7RSSbZRQ"
+                  ><i class="fa-brands fa-youtube"></i> YouTube</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-call-to-action">
+            <h2 class="footer-call-to-action-title">Con respaldo de:</h2>
+            <ul id="menu-quick-links" class="footer-menu-list">
+              <li
+                class="menu-item menu-item-type-custom menu-item-object-custom"
+              >
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://fortem.com.pe/"
+                  ><img src="img/fortem.jpg" alt="" class="footer_respaldo"
+                /></a>
+              </li>
+              <li
+                class="menu-item menu-item-type-custom menu-item-object-custom"
+              >
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.proempresa.com.pe/"
+                  ><img src="img/proempresa.jpg" alt="" class="footer_respaldo"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="footer-copyright-wrapper">
+          <p class="footer-copyright-text">
+            <a class="footer-copyright-link" href="#" target="_self">
+              ©2024 | Designed By: Josept Vela | All rights reserved
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script1.js"></script>
+    <script src="js/script2.js"></script>
+    <script src="js/script3.js"></script>
+  </body>
+</html>
